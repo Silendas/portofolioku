@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portofolioku/static/css/main.ffd9b9ba.css",
+    "main.js": "/portofolioku/static/js/main.66cd9edf.js",
+    "static/media/Foto_Abdi.jpg": "/portofolioku/static/media/Foto_Abdi.c6439e9039014c5d746b.jpg",
+    "static/media/Ionic.jpg": "/portofolioku/static/media/Ionic.d8e0abd9a288200d1c26.jpg",
+    "static/media/mySQL.png": "/portofolioku/static/media/mySQL.4676ad983d6bd3e9fac9.png",
+    "index.html": "/portofolioku/index.html",
+    "main.ffd9b9ba.css.map": "/portofolioku/static/css/main.ffd9b9ba.css.map",
+    "main.66cd9edf.js.map": "/portofolioku/static/js/main.66cd9edf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffd9b9ba.css",
+    "static/js/main.66cd9edf.js"
+  ]
+}
