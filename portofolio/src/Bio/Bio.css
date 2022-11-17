@@ -1,0 +1,200 @@
+.content{
+    position: absolute;
+    width: 100%;
+    height: 200vh;
+    background-color: #393e46;
+    align-content: center;
+}
+
+.header-text{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img-profile{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+}    
+
+.img-diri{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url('../Assets/Foto_Abdi.jpg');
+    background-position-x: -150px;
+    background-position-y: -50px;
+}
+
+.my-skills{
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    gap: 80px;
+}
+
+.img-vb{
+    background-image: url('../Assets/VB.png');
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.img-react{
+    background-image: url('../Assets/logo512.png');
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.img-ionic{
+    background-image: url('../Assets/Ionic.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.img-mysql{
+    background-image: url('../Assets/mySQL.png');
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+}
+
+.img-node{
+    background-image: url('../Assets/node.png');
+    background-position: center;
+    background-size: 100px;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.ket-skill-before{
+    margin-left: 9%;
+    margin-right: 4%;
+    display: none;
+}
+
+.ket-skill-after{
+    margin-left: 9%;
+    margin-right: 4%;
+    display: block;
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s; /* Firefox < 16 */
+     -ms-animation: fadein 2s; /* Internet Explorer */
+      -o-animation: fadein 2s; /* Opera < 12.1 */
+         animation: fadein 2s;
+}
+
+@keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+ from { opacity: 0; }
+ to   { opacity: 1; }
+}
+
+.ket-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bar{
+    align-content: center;
+    width: 100%;
+    height: 33px;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.presentase-react{
+    width: 50%;
+    height: 98%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    animation: animate 1s;
+}
+
+.presentase-node{
+    width: 40%;
+    height: 98%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    animation: animate 1s;
+}
+
+.presentase-ionic{
+    width: 50%;
+    height: 98%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    animation: animate 1s;
+}
+
+.presentase-vb{
+    width: 40%;
+    height: 98%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    animation: animate 1s;
+}
+
+.presentase-mysql{
+    width: 60%;
+    height: 98%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    animation: animate 1s;
+}
+
+.present-txt{
+    color: black;
+    font-weight: bold;
+}
+
+@keyframes animate {
+    from{
+        width:0;
+        color: black;
+    }
+}
